@@ -15,5 +15,13 @@ angular.module('app').factory('backend', function($http) {
         ];
     };
 
+    exports.registerUser = function(user) {
+        // This is where you'd do:
+        //
+        //   return $http.jsonp(BASE_URL + '/user?method=post', user)
+        console.log('Registered user:');
+        console.log(user);
+    };
+
     return exports;
 });
