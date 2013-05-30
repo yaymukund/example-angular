@@ -13,6 +13,13 @@ angular.module('app')
                 }
             });
 
+            backend.registerUser({
+                name: user.name,
+                login: user.login,
+                password: user.password,
+                languages: user.languages
+            });
+
             $location.path('/finalize');
         };
     });
