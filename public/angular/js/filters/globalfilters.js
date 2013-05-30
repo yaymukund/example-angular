@@ -1,0 +1,1 @@
+/* global filters go in the angular/js/filters directory */

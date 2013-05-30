@@ -1,0 +1,1 @@
+/* Global JS files go in the angular/js directory */

@@ -1,0 +1,1 @@
+/* global directives go in the angular/js/directives directory */

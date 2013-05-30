@@ -1,0 +1,19 @@
+<div id="debug">
+    <pre>{{user|json}}</pre>
+    <pre>{{languages|json}}</pre>
+</div>
+
+<form ng-submit="submitLanguages()">
+    <p>
+
+    <label for="languages">
+        Languages:
+
+        <span ng-repeat="language in languages">
+            {{language.name}}
+            <input type="checkbox" ng-model="language.selected" name="language.name"><br>
+        </span>
+    </label>
+
+    <input type="submit" value="Show me what you got!" ng-disabled="submitting">
+</form>
